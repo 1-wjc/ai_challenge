@@ -1,0 +1,6 @@
+{
+  "auto_map": {
+    "AutoProcessor": "processing_minicpmv.MiniCPMVProcessor"
+  },
+  "processor_class": "MiniCPMVProcessor"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "train_0027.jpg",
+  "loss": 12.553082466125488,
+  "generation": "c",
+  "parsed": "c",
+  "finite_nonzero_gradients": true,
+  "optimizer_step_performed": false,
+  "seconds_one_forward_backward": 4.218696699999782,
+  "peak_allocated_gib": 8.248463153839111,
+  "supervised_tokens": 266,
+  "image_meta": {
+    "original_size": [
+      720,
+      960
+    ],
+    "grid_thw": [
+      [
+        1,
+        26,
+        20
+      ]
+    ],
+    "processed_hw": [
+      [
+        416,
+        320
+      ]
+    ],
+    "visual_tokens": 130
+  },
+  "note": "smoke only; runtime estimate is rough, not measured epoch duration"
+}

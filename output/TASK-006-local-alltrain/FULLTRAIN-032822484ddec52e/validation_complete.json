@@ -1,0 +1,25 @@
+{
+  "directory": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-local-alltrain\\FULLTRAIN-032822484ddec52e\\validation_a041deb8",
+  "artifacts": {
+    "environment.json": "db5794979e6d199d73c408fda22d4ea3c6d4c3282816cc808bfefe8fd87bfc7e",
+    "model_config.json": "f45c3a3a48e0656fd984953ff969922f4c0080f15ea15237cc812d0a7fa88deb",
+    "processor_settings.json": "24f1df0a13c227123cc683d98dfde6212ae231e4060729815186ebd3962eca6f",
+    "valid_metrics.json": "36904bf491ff6a6118abdd5698eb48c0fe54bfc884872ece59df9f33a2a3cbb8",
+    "valid_predictions.csv": "f986fa8132d62a0c20d7daea6613ded323d0b27ec9a3972ebc8f1d76c07e5680",
+    "processor\\chat_template.jinja": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e",
+    "processor\\processor_config.json": "6b7d1322512ad4a0eddef839f19c2f92000e329cd494a374b09072b6c91c2d7a",
+    "processor\\tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "processor\\tokenizer_config.json": "a0a7e58b7d879279122e917ff4d430b52a349201761fa9368a81ab5d1a597596"
+  },
+  "result": {
+    "n": 500,
+    "correct_n": 471,
+    "accuracy": 0.942,
+    "parse_failure_rate": 0.0,
+    "fallback_usage_rate": 0.0,
+    "seconds": 420.3979655000021,
+    "seconds_per_sample": 0.8407959310000042,
+    "peak_allocated_gib": 7.68745756149292,
+    "peak_reserved_gib": 11.333984375
+  }
+}

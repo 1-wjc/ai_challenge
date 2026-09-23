@@ -1,0 +1,16 @@
+{
+  "state": "completed",
+  "directory": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-resolution\\RES5-64d6ac7377998c2b\\res_560_20260922_134018_0371e6a4",
+  "artifacts": {
+    "environment.json": "db5794979e6d199d73c408fda22d4ea3c6d4c3282816cc808bfefe8fd87bfc7e",
+    "inference_config.json": "506433ed4193ddbd72253030a668a965ca8bf8ac23cda03647c834d3ba7c21d2",
+    "model_config.json": "f45c3a3a48e0656fd984953ff969922f4c0080f15ea15237cc812d0a7fa88deb",
+    "processor_settings.json": "aab7b446711f495bcf7906d4e218e9c5be4e056fc4ddbcb0748dc51a30d7cdc8",
+    "valid_metrics.json": "de2c8ba283418eab0537502e3df606ea5c1fccf244a684d7443109c864c80e38",
+    "valid_predictions.csv": "cb57fc507a954641465c4e11151b623e99c2da2fc05d71416c575ec4776a47b1",
+    "processor\\chat_template.jinja": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e",
+    "processor\\processor_config.json": "75afdbbbb730cd613a25a95d37626f372fb9828c13d1ea14787686a1882cba92",
+    "processor\\tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "processor\\tokenizer_config.json": "a0a7e58b7d879279122e917ff4d430b52a349201761fa9368a81ab5d1a597596"
+  }
+}

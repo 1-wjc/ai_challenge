@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "train": 5214,
+    "holdout": 1000,
+    "valid": 500
+  },
+  "epochs": 1,
+  "optimizer_updates": 1304,
+  "reference_train_seconds_5060ti": 14233.128989791801,
+  "note": "linear estimate from local 1000-sample run; full training not yet measured"
+}

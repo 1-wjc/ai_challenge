@@ -1,0 +1,9 @@
+{
+  "train_csv_sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+  "split_sha256": "fc82d9a09e01cebabd39f1cb6f5e9054de8caf01bc4669731bc2b41693022ac0",
+  "train_n": 180,
+  "valid_n": 500,
+  "holdout_n": 500,
+  "near_duplicate_review": "not_performed",
+  "dev_used": false
+}

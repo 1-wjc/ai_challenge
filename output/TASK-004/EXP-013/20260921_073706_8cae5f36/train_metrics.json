@@ -1,0 +1,7 @@
+{
+  "epochs": 1,
+  "updates": 45,
+  "seconds": 155.67445430002408,
+  "peak_allocated_gib": 8.876657962799072,
+  "peak_reserved_gib": 9.388671875
+}

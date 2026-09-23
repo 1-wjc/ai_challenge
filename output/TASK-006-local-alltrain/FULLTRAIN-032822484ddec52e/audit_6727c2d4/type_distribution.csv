@@ -1,0 +1,4 @@
+split,negation,number,position,price,text_other
+holdout,50,95,60,139,656
+train,264,508,322,701,3419
+valid,25,49,31,74,321

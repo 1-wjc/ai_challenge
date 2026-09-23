@@ -1,0 +1,11 @@
+﻿loss_mode,question_type,n,accuracy
+full_text,negation,25,0.96
+full_text,number,49,0.8571428571428571
+full_text,position,31,0.9032258064516129
+full_text,price,74,0.9459459459459459
+full_text,text_other,321,0.9190031152647975
+answer_only,negation,25,0.96
+answer_only,number,49,0.9387755102040817
+answer_only,position,31,0.9032258064516129
+answer_only,price,74,0.9594594594594594
+answer_only,text_other,321,0.9376947040498442

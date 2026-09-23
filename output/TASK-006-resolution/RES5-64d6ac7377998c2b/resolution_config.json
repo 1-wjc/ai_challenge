@@ -1,0 +1,20 @@
+{
+  "baseline_dir": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006\\TASK006-8f2c71505c11284c",
+  "resolutions": [
+    384,
+    448,
+    560,
+    672,
+    784
+  ],
+  "session_tag": "inference_resolution_5_v1",
+  "baseline_worker_sha256": "e557570083036ab98f8f85fb11fa65291644524babc6a7b5ddd59ecac2d57836",
+  "baseline_config_sha256": "94d24507d52e39ddb4cabd5b8bafd52e95f81329c1fcdd14157f27f26803ba09",
+  "train_record_sha256": "4a0fef273644cccd59abd28a93a8cf81b2d82e716b8dc79998c9932f384b1a63",
+  "audit_record_sha256": "a007fa7d14f48de94a48d6046ad710efb22022ba00c863fdb861ac2d1a06bb01",
+  "worker_sha256": "fb65db784cf5dccf86408ae406a9fb070e5303096e623daac20dd9a2db1cac6f",
+  "environment_sha256": "dec85a7b62ea2491676bd429cf43daf8f329160a8d54fcc011d0903c29d5e5bb",
+  "code_version": "resolution-5-v1.1-newline-fix",
+  "output_dir": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-resolution\\RES5-64d6ac7377998c2b",
+  "retry_oom": false
+}

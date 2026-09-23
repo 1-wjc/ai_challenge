@@ -1,0 +1,59 @@
+{
+  "task_id": "TASK-004",
+  "experiment_id": "EXP-011",
+  "model": "Qwen/Qwen3.5-9B",
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "split": {
+    "train_csv_sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+    "test_csv_sha256": "95063b713a853153d80d7c10df95a5be2bac93bb87cb6a7fe6172c479dc1bb97",
+    "sample_csv_sha256": "92567292544cba39e2ed81780ba7627758a518f7925fb237d350901a2d9cdace",
+    "split_sha256": "12a0551f8af9dc9ac77a01f1c1e878c420aacde5dd67524b87d3d5d8c44437dc",
+    "train_n": 180,
+    "valid_n": 20,
+    "test_n": 6714,
+    "near_duplicate_review": "not_performed",
+    "dev_used": false
+  },
+  "baseline": {
+    "n": 20,
+    "seconds": 16.431342000025325,
+    "seconds_per_sample": 0.8215671000012662,
+    "parse_failure_rate": 0.0,
+    "peak_allocated_gib": 7.543478965759277,
+    "peak_reserved_gib": 11.271484375,
+    "accuracy": 0.9,
+    "strict_accuracy": 0.9
+  },
+  "lora": {
+    "n": 20,
+    "seconds": 10.87947109999368,
+    "seconds_per_sample": 0.543973554999684,
+    "parse_failure_rate": 0.0,
+    "peak_allocated_gib": 7.629641532897949,
+    "peak_reserved_gib": 11.294921875,
+    "accuracy": 0.9,
+    "strict_accuracy": 0.9
+  },
+  "training": {
+    "epochs": 1,
+    "updates": 45,
+    "seconds": 938.8861552000162,
+    "peak_allocated_gib": 8.703543663024902,
+    "peak_reserved_gib": 11.544921875
+  },
+  "test": {
+    "n": 6714,
+    "seconds": 4440.12218320003,
+    "seconds_per_sample": 0.6613229346440319,
+    "parse_failure_rate": 0.0,
+    "peak_allocated_gib": 7.638599395751953,
+    "peak_reserved_gib": 11.294921875
+  },
+  "submitted_checkpoint": "adapter_epoch1",
+  "submission_rows": 6714,
+  "submission_sha256": "634789c8455fa83e2a1318818269f6ee5a764f075af2aa0cbf13ba50364b9165",
+  "kaggle_uploaded": false,
+  "public_score": null,
+  "selection_note": "epoch-1 LoRA inference; model adoption awaits common-split review",
+  "base_outperformed_lora": false
+}

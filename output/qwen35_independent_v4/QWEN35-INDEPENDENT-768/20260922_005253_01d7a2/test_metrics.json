@@ -1,0 +1,9 @@
+{
+  "n": 6714,
+  "seconds": 5147.9302797,
+  "seconds_per_sample": 0.7667456478552279,
+  "peak_allocated_gib": 7.769226551055908,
+  "peak_reserved_gib": 7.9453125,
+  "parse_failure_rate": 0.0,
+  "max_input_tokens_observed": 831
+}

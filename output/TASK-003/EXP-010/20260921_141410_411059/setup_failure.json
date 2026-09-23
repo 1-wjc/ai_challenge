@@ -1,0 +1,7 @@
+{
+  "task_id": "TASK-003",
+  "experiment_id": "EXP-010",
+  "stage": "gpu_preflight",
+  "error": "Command '['c:\\\\Users\\\\SSAFY\\\\Desktop\\\\AI2_Challenge\\\\baseline\\\\Scripts\\\\python.exe', '-c', \"\\nimport torch\\nassert torch.cuda.is_available(), 'CUDA GPU가 필요합니다.'\\nprops = torch.cuda.get_device_properties(0)\\nminimum_weight_bytes = 9_000_000_000 * 2\\nprint('PyTorch:', torch.__version__)\\nprint('GPU:', props.name)\\nprint('VRAM:', round(props.total_memory / 1024**3, 1), 'GiB')\\nif props.total_memory <= minimum_weight_bytes:\\n    raise RuntimeError(\\n        'Qwen3.5-9B 비양자화 BF16/FP16 가중치만 약 18GB 이상입니다. '\\n        '현재 GPU에는 가중치가 들어가지 않습니다. 5060 Ti 16GB에서는 이 버전을 실행할 수 없습니다. '\\n        '충분한 VRAM의 GPU가 필요하며, 기존 4bit 버전은 별도 파일로 보존되어 있습니다.'\\n    )\\nprint('가중치 최소 용량 점검 통과. 전체 학습 VRAM의 실행 보장은 아닙니다.')\\n\"]' returned non-zero exit status 1.",
+  "detail": "위 CUDA/VRAM 오류를 확인하세요. 양자화/CPU offload 자동 전환 없음."
+}

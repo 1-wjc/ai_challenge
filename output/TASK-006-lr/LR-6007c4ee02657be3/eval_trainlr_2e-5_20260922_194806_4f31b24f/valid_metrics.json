@@ -1,0 +1,22 @@
+{
+  "n": 500,
+  "correct_n": 468,
+  "accuracy": 0.936,
+  "parse_failure_rate": 0.0,
+  "fallback_usage_rate": 0.0,
+  "seconds": 431.70820110000204,
+  "seconds_per_sample": 0.863416402200004,
+  "peak_allocated_gib": 7.68745756149292,
+  "peak_reserved_gib": 11.333984375,
+  "train_resolution": 640,
+  "loss_mode": "answer_only",
+  "learning_rate": 2e-05,
+  "prompt": "P5",
+  "inference_resolution": 672,
+  "checkpoint": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-lr\\LR-6007c4ee02657be3\\train_lr_2e-5_20260922_190132_80cd0dc9\\adapter_epoch1",
+  "training_seconds": 2747.532490000005,
+  "optimizer_updates": 250,
+  "training_peak_allocated_gib": 10.389219760894775,
+  "reused_baseline": false,
+  "warmup_samples": 1
+}

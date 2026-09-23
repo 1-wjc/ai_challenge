@@ -1,0 +1,41 @@
+{
+  "state": "completed",
+  "directory": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-loss\\LOSS-51ca09225d304a9a\\train_answer_only_20260922_152814_5e73bca1",
+  "checkpoint": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-loss\\LOSS-51ca09225d304a9a\\train_answer_only_20260922_152814_5e73bca1\\adapter_epoch1",
+  "training": {
+    "train_n": 1000,
+    "epochs": 1,
+    "updates": 250,
+    "seconds": 2658.9190267000013,
+    "peak_allocated_gib": 9.904252529144287,
+    "peak_reserved_gib": 11.564453125
+  },
+  "artifacts": {
+    "environment.json": "db5794979e6d199d73c408fda22d4ea3c6d4c3282816cc808bfefe8fd87bfc7e",
+    "lora_parameters.json": "cb96538fcf320d463dc525b4b6dda3212e8eec30d73b8d1e00414d1f54fabb87",
+    "model_config.json": "f45c3a3a48e0656fd984953ff969922f4c0080f15ea15237cc812d0a7fa88deb",
+    "processor_settings.json": "68031073075af973e434d38862883251aaa42b44dfb26eba99c62fe1c26e7bcc",
+    "reload_after_metrics.json": "ff6b2d94233694301dc0db659ee2bedf5886ac0266f5476c355dac8138e75ea0",
+    "reload_after_predictions.csv": "0e7f1f3171c138a019d8e79638c21147c8c3203c300249fc01ffe095a5e6a0a6",
+    "reload_before_metrics.json": "df4243b849811d076f50c15a5f7f27be17f628444bfc93f919ecb86d76aa12dc",
+    "reload_before_predictions.csv": "0e7f1f3171c138a019d8e79638c21147c8c3203c300249fc01ffe095a5e6a0a6",
+    "reload_check.json": "d2b598c5fc6216ef063eda077e5da1de811df81fe34ce0d71b12d11b8ff8caf1",
+    "supervised_tokens.csv": "3f6b399af9373e5b9e50de0d6dcef01b9d5a85538bf48326dda29b9014b2b1d5",
+    "training_config.json": "ab04c36dd19fc0bd2aaff63cb9bb0ecec94fad9ca59c49904f9f4ffa72d5601a",
+    "train_log.csv": "ce5e8d6b1a10ed273781807766afb30c90b7bb08d46bb62fb3072ba97e121b94",
+    "train_metrics.json": "ce467abe3982697cd918ec28ca475601182a551f809d09e76d8beb36a5720951",
+    "train_updates.jsonl": "9168b9c1be45c847be8ebd8580da3c159976280109ce238a2fa27a12b21d4e90",
+    "adapter_epoch1\\adapter_config.json": "e08584462d8f832e1f8c1c4b31e85be0353a3b1502ae2e1d0aad26eea418a18e",
+    "adapter_epoch1\\adapter_model.safetensors": "1e6d7dbbbb6db97f38f018a0d4aa12a93ab8f00409cb9149a13250bd4daa8758",
+    "adapter_epoch1\\chat_template.jinja": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e",
+    "adapter_epoch1\\processor_config.json": "ea0cbae04695716bc95ec1c8f2bd73560c32aa7b60323dc0ec7aa1bb9ead24f0",
+    "adapter_epoch1\\README.md": "788b4133ad4d2d27ccedaf124eda59d89afd1e2eff8a0c8fb2b637912c2c391b",
+    "adapter_epoch1\\tokenizer.json": "b6d27c11283798debbfbcb1bd3bbdbcebac6c9b20d0be0c5b79231c97de97501",
+    "adapter_epoch1\\tokenizer_config.json": "a0a7e58b7d879279122e917ff4d430b52a349201761fa9368a81ab5d1a597596",
+    "processor\\chat_template.jinja": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e",
+    "processor\\processor_config.json": "ea0cbae04695716bc95ec1c8f2bd73560c32aa7b60323dc0ec7aa1bb9ead24f0",
+    "processor\\tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "processor\\tokenizer_config.json": "a0a7e58b7d879279122e917ff4d430b52a349201761fa9368a81ab5d1a597596"
+  },
+  "reused_baseline": false
+}

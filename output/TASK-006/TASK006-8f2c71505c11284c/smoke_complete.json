@@ -1,0 +1,49 @@
+{
+  "stage": "smoke",
+  "directory": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006\\TASK006-8f2c71505c11284c\\smoke_20260922_115101_871b7dcc",
+  "result": {
+    "id": "train_0027.jpg",
+    "loss": 12.553082466125488,
+    "generation": "c",
+    "parsed": "c",
+    "finite_nonzero_gradients": true,
+    "optimizer_step_performed": false,
+    "seconds_one_forward_backward": 4.218696699999782,
+    "peak_allocated_gib": 8.248463153839111,
+    "supervised_tokens": 266,
+    "image_meta": {
+      "original_size": [
+        720,
+        960
+      ],
+      "grid_thw": [
+        [
+          1,
+          26,
+          20
+        ]
+      ],
+      "processed_hw": [
+        [
+          416,
+          320
+        ]
+      ],
+      "visual_tokens": 130
+    },
+    "note": "smoke only; runtime estimate is rough, not measured epoch duration"
+  },
+  "artifacts": {
+    "config.json": "94d24507d52e39ddb4cabd5b8bafd52e95f81329c1fcdd14157f27f26803ba09",
+    "environment.json": "db5794979e6d199d73c408fda22d4ea3c6d4c3282816cc808bfefe8fd87bfc7e",
+    "lora_parameters.json": "cb96538fcf320d463dc525b4b6dda3212e8eec30d73b8d1e00414d1f54fabb87",
+    "model_config.json": "f45c3a3a48e0656fd984953ff969922f4c0080f15ea15237cc812d0a7fa88deb",
+    "processor_settings.json": "bc6b03f63e43d31495d04ca062892fcea5e6c11ca9f4c04e19ad7895e288e7bc",
+    "smoke_metrics.json": "7049453229b8db59cc0782c35cb1a9bac176f5108ee165d21f6180a7cb1ed7e9",
+    "supervised_tokens.csv": "988be4dde68dc49fd09f5d9d7d07f09bc69a00a67ed030f8fac19c50b6bd971c",
+    "processor\\chat_template.jinja": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e",
+    "processor\\processor_config.json": "de58e6854d666dcd4adda02f3dc54b60b10f0d6ab06cd7a5e38a23712d0ad869",
+    "processor\\tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "processor\\tokenizer_config.json": "a0a7e58b7d879279122e917ff4d430b52a349201761fa9368a81ab5d1a597596"
+  }
+}

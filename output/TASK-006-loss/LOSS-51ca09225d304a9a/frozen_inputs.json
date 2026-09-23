@@ -1,0 +1,121 @@
+{
+  "baseline_config": {
+    "task_id": "TASK-006-R1",
+    "code_version": "baseline-qwen35-v1.0",
+    "baseline_source_sha256": "501d86a66ab2ae6fe52497089a2c9ef682b00ad05e243d83bc78b128c78f92fe",
+    "session_tag": "baseline_qwen35_r1",
+    "model_id": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "kind": "qwen",
+    "model_dir": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen3_5_9B\\c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "data_dir": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\data",
+    "seed": 42,
+    "train_n": 1000,
+    "valid_n": 500,
+    "holdout_n": 1000,
+    "near_hash_distance": 4,
+    "pixel_budget": 147456,
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "learning_rate": 0.0001,
+    "max_new_tokens": 2,
+    "max_input_tokens": 4096,
+    "quantization": "NF4/double-quant/BF16",
+    "loss": "baseline_full_sequence; padding_only_mask",
+    "evaluation": "generated_only; strict_parse; failure_is_wrong; no_fallback",
+    "image_policy": "EXIF/RGB; processor aspect-preserving pixel budget",
+    "review_02": "pending",
+    "dev_used": false,
+    "test_used": false,
+    "worker_sha256": "e557570083036ab98f8f85fb11fa65291644524babc6a7b5ddd59ecac2d57836",
+    "train_csv_sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+    "environment_lock_sha256": "6ffe916f8eacde6b79c603c5faf7166254128e5f01f2575967accfdb3bc71fec",
+    "model_assets_sha256": "bf62bd5ec3814c82a9e555e039fb6efea5f161f69ab5c7259ad4634006b54e89",
+    "run_dir": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006\\TASK006-8f2c71505c11284c",
+    "experiment_id": "TASK006-8f2c71505c11284c"
+  },
+  "data_manifest": {
+    "csv_sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+    "split_sha256": "c28b7ef0c5baf35689505b5bf4ad64168a754e118c0e4f59c0bf2b8d6884679d",
+    "image_audit_sha256": "da8872e005431a203fd94fb083e835962eb5a3ae6d924cfce160c1f709c58040",
+    "counts": {
+      "pool": 4214,
+      "holdout": 1000,
+      "train": 1000,
+      "valid": 500
+    },
+    "groups": 6704,
+    "near_candidate_pairs": 3,
+    "near_policy": "dHash candidate transitive grouping; human review pending; misses possible",
+    "question_type_policy": "regex heuristic only",
+    "review_02": "pending",
+    "dev_used": false,
+    "test_used": false,
+    "findings": 2
+  },
+  "checkpoint": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006\\TASK006-8f2c71505c11284c\\train_20260922_115654_f6f6586f\\adapter_epoch1",
+  "baseline_records": {
+    "audit": "a007fa7d14f48de94a48d6046ad710efb22022ba00c863fdb861ac2d1a06bb01",
+    "train": "4a0fef273644cccd59abd28a93a8cf81b2d82e716b8dc79998c9932f384b1a63",
+    "lora_eval": "7315987f1d7d158cc2a613c4e3c6bee485fb28e6dc6090972489a66d35ec24c4"
+  },
+  "baseline_config_sha256": "94d24507d52e39ddb4cabd5b8bafd52e95f81329c1fcdd14157f27f26803ba09",
+  "valid_ids_sha256": "e264d89429aa81f29bae3e314c88ea7a4b04e9673b8d25253a0acfc1f56e3e6c",
+  "valid_n": 500,
+  "previous_predictions": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006\\TASK006-8f2c71505c11284c\\lora_eval_20260922_131046_0bb6b071\\valid_lora_predictions.csv",
+  "model_file_stats": {
+    "chat_template.jinja": [
+      7756,
+      1789968403413105000
+    ],
+    "config.json": [
+      3126,
+      1789968403666634100
+    ],
+    "merges.txt": [
+      3353259,
+      1789968403982751300
+    ],
+    "model.safetensors-00001-of-00004.safetensors": [
+      5276436216,
+      1789968505161096200
+    ],
+    "model.safetensors-00002-of-00004.safetensors": [
+      5335161512,
+      1789968584824637400
+    ],
+    "model.safetensors-00003-of-00004.safetensors": [
+      5368717440,
+      1789968683284136500
+    ],
+    "model.safetensors-00004-of-00004.safetensors": [
+      3325995712,
+      1789968737481764300
+    ],
+    "model.safetensors.index.json": [
+      79657,
+      1789968737778578900
+    ],
+    "preprocessor_config.json": [
+      390,
+      1789968738046044000
+    ],
+    "tokenizer.json": [
+      12807982,
+      1789968740030576200
+    ],
+    "tokenizer_config.json": [
+      16710,
+      1789968740329992500
+    ],
+    "video_preprocessor_config.json": [
+      385,
+      1789968740597782200
+    ],
+    "vocab.json": [
+      6722759,
+      1789968740997931000
+    ]
+  }
+}

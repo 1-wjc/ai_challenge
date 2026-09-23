@@ -1,0 +1,7 @@
+{
+  "n": 500,
+  "same_predictions": true,
+  "same_raw_outputs": true,
+  "changed_prediction_count": 0,
+  "note": "timing rerun with warmup; discrepancy requires review"
+}

@@ -1,0 +1,392 @@
+{
+  "task_id": "TASK-001",
+  "checked_at": "2026-09-21T02:19:06.920933+00:00",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "4.57.6",
+    "accelerate": "1.15.0",
+    "peft": "0.20.0",
+    "bitsandbytes": "0.50.2",
+    "pandas": "3.0.5",
+    "Pillow": "12.3.0",
+    "numpy": "2.4.6"
+  },
+  "paths": {
+    "libs": {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\libs",
+      "exists": true
+    },
+    "model": {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct",
+      "exists": true
+    },
+    "data": {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\data",
+      "exists": true
+    },
+    "adapter": {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora",
+      "exists": true
+    }
+  },
+  "csv": {
+    "train.csv": {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\data\\train.csv",
+      "exists": true,
+      "size_bytes": 1280598,
+      "mtime_ns": 1788827386028285700,
+      "sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+      "rows": 6714,
+      "columns": [
+        "id",
+        "path",
+        "question",
+        "a",
+        "b",
+        "c",
+        "d",
+        "answer"
+      ]
+    },
+    "test.csv": {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\data\\test.csv",
+      "exists": true,
+      "size_bytes": 1251326,
+      "mtime_ns": 1788827386088770900,
+      "sha256": "95063b713a853153d80d7c10df95a5be2bac93bb87cb6a7fe6172c479dc1bb97",
+      "rows": 6714,
+      "columns": [
+        "id",
+        "path",
+        "question",
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "sample_submission.csv": {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\data\\sample_submission.csv",
+      "exists": true,
+      "size_bytes": 107435,
+      "mtime_ns": 1788827386141072500,
+      "sha256": "92567292544cba39e2ed81780ba7627758a518f7925fb237d350901a2d9cdace",
+      "rows": 6714,
+      "columns": [
+        "id",
+        "answer"
+      ]
+    }
+  },
+  "gpu": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 5060 Ti",
+      "total_vram_bytes": 17102864384
+    }
+  ],
+  "baseline_notebook": {
+    "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\(260902)_baseline_desktop5060ti_offline(1).ipynb",
+    "exists": false
+  },
+  "task_notebook": {
+    "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\baseline_TASK-001.ipynb",
+    "exists": true,
+    "size_bytes": 41467,
+    "mtime_ns": 1789956917165094900,
+    "sha256": "3bb5e2c3cbf30c9c5659a2ed8140ddaf6134763e0b24710dcf3748937e76a582"
+  },
+  "baseline_submission": {
+    "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\submission.csv",
+    "exists": true,
+    "size_bytes": 114149,
+    "mtime_ns": 1789954198500960900,
+    "sha256": "7cea05d8bd489ea45503ff05233d000b3dfaef9750b4289eb01f251ce4e8d9ac"
+  },
+  "cuda_available": true,
+  "adapter_files": [
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\adapter_config.json",
+      "exists": true,
+      "size_bytes": 1222,
+      "mtime_ns": 1789951967785463300,
+      "sha256": "664c20541cb0116214ce953d1cb004317dc3e3e4cd9309d56ddf18a09cbfe473"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\adapter_model.safetensors",
+      "exists": true,
+      "size_bytes": 74405904,
+      "mtime_ns": 1789951967782689300,
+      "sha256": "0a3ef0dbbce0eaeb50b6188101a041c7777440b9abeb49af38ab786927151a53"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\added_tokens.json",
+      "exists": true,
+      "size_bytes": 629,
+      "mtime_ns": 1789951967788575500,
+      "sha256": "f0acedf99e19ec0a5b797ffbd0b94328172ccd90f7f385bbc521cda2701b03ab"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\chat_template.jinja",
+      "exists": true,
+      "size_bytes": 1023,
+      "mtime_ns": 1789951967903378700,
+      "sha256": "6edff8eae4ef69923f937be5b1fcf91462227e7c827a0a936a98197f19642388"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\merges.txt",
+      "exists": true,
+      "size_bytes": 1671853,
+      "mtime_ns": 1789951967839384800,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\preprocessor_config.json",
+      "exists": true,
+      "size_bytes": 868,
+      "mtime_ns": 1789951967786476900,
+      "sha256": "2dfd5b9dbb6d892ceb134cac3e4ae81733503dfe7daaccf797159bf393119226"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\README.md",
+      "exists": true,
+      "size_bytes": 5232,
+      "mtime_ns": 1789951967638971300,
+      "sha256": "4e45dead43c0d2d0f9ddef0e1292004bdd08c16c67a1aa9d9458fb30e6e177ce"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\special_tokens_map.json",
+      "exists": true,
+      "size_bytes": 644,
+      "mtime_ns": 1789951967788575500,
+      "sha256": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\tokenizer.json",
+      "exists": true,
+      "size_bytes": 11422064,
+      "mtime_ns": 1789951967899378100,
+      "sha256": "ba0c439f7be467bf47d12a7e6f9adc6116201056fc60c67f431c679b7c16afc8"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\tokenizer_config.json",
+      "exists": true,
+      "size_bytes": 4988,
+      "mtime_ns": 1789951967788575500,
+      "sha256": "e9f13997b6e3b881b0c5c3d52614f7750574a187113646f0fc5ea6b1491aac4d"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\video_preprocessor_config.json",
+      "exists": true,
+      "size_bytes": 956,
+      "mtime_ns": 1789951967903378700,
+      "sha256": "fe4e38d175c81de0777f56f780de7761f15d1081c24b2ab4b0e70baa29f2a8b6"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\qwen2_5_vl_3b_lora\\vocab.json",
+      "exists": true,
+      "size_bytes": 2776833,
+      "mtime_ns": 1789951967806004100,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "base_files": [
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\.gitignore",
+      "exists": true,
+      "size_bytes": 1,
+      "mtime_ns": 1789104592749531200,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\chat_template.json.metadata",
+      "exists": true,
+      "size_bytes": 104,
+      "mtime_ns": 1789104593190038700,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\config.json.metadata",
+      "exists": true,
+      "size_bytes": 104,
+      "mtime_ns": 1789104593121226400,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\generation_config.json.metadata",
+      "exists": true,
+      "size_bytes": 104,
+      "mtime_ns": 1789104593139355200,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\LICENSE.metadata",
+      "exists": true,
+      "size_bytes": 103,
+      "mtime_ns": 1789104593254068000,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\merges.txt.metadata",
+      "exists": true,
+      "size_bytes": 104,
+      "mtime_ns": 1789104593505114400,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\model-00001-of-00002.safetensors.metadata",
+      "exists": true,
+      "size_bytes": 128,
+      "mtime_ns": 1789104623807980900,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\model-00002-of-00002.safetensors.metadata",
+      "exists": true,
+      "size_bytes": 128,
+      "mtime_ns": 1789104622208782700,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\model.safetensors.index.json.metadata",
+      "exists": true,
+      "size_bytes": 103,
+      "mtime_ns": 1789104593487498100,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\preprocessor_config.json.metadata",
+      "exists": true,
+      "size_bytes": 104,
+      "mtime_ns": 1789104593703461300,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\tokenizer.json.metadata",
+      "exists": true,
+      "size_bytes": 102,
+      "mtime_ns": 1789104593846030100,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\tokenizer_config.json.metadata",
+      "exists": true,
+      "size_bytes": 103,
+      "mtime_ns": 1789104593961665000,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\.cache\\huggingface\\download\\vocab.json.metadata",
+      "exists": true,
+      "size_bytes": 104,
+      "mtime_ns": 1789104594186884100,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\chat_template.json",
+      "exists": true,
+      "size_bytes": 1050,
+      "mtime_ns": 1789104593189036000,
+      "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\config.json",
+      "exists": true,
+      "size_bytes": 1373,
+      "mtime_ns": 1789104593121226400,
+      "sha256": "7ed3eed5be6924cc800e8a5e53fc405c1aab1aaf36bad65c33403b36c56827f5"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\generation_config.json",
+      "exists": true,
+      "size_bytes": 216,
+      "mtime_ns": 1789104593138355900,
+      "sha256": "533f191cc257b7de37a4fccd0a7a1706d75e1aa660f93efaa54e5a2a9f9aace9"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\LICENSE",
+      "exists": true,
+      "size_bytes": 7387,
+      "mtime_ns": 1789104593254068000,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\merges.txt",
+      "exists": true,
+      "size_bytes": 1671839,
+      "mtime_ns": 1789104593505114400,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\model-00001-of-00002.safetensors",
+      "exists": true,
+      "size_bytes": 3982649232,
+      "mtime_ns": 1789104623792153400,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\model-00002-of-00002.safetensors",
+      "exists": true,
+      "size_bytes": 3526688744,
+      "mtime_ns": 1789104622135074000,
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\model.safetensors.index.json",
+      "exists": true,
+      "size_bytes": 65448,
+      "mtime_ns": 1789104593487498100,
+      "sha256": "c7dd78a4c6bea60b51332f1baf37b8f8124ecab2c35395a29a29825bf2619768"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\preprocessor_config.json",
+      "exists": true,
+      "size_bytes": 350,
+      "mtime_ns": 1789104593703461300,
+      "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\tokenizer.json",
+      "exists": true,
+      "size_bytes": 7031645,
+      "mtime_ns": 1789104593844114400,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\tokenizer_config.json",
+      "exists": true,
+      "size_bytes": 5702,
+      "mtime_ns": 1789104593960700800,
+      "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56"
+    },
+    {
+      "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\downloads\\models\\Qwen2.5-VL-3B-Instruct\\vocab.json",
+      "exists": true,
+      "size_bytes": 2776833,
+      "mtime_ns": 1789104594186354300,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "run_dir": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-001\\20260921T021908Z_36a9022d",
+  "seed": 42,
+  "image_pixel_budget": 147456,
+  "generation": {
+    "max_new_tokens": 2,
+    "do_sample": false
+  },
+  "quantization": {
+    "load_in_4bit": true,
+    "type": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "training_lineage_confirmed": false,
+  "training_lineage_note": "",
+  "train_csv_at_training_sha256": null,
+  "reported_baseline_score": 0.703,
+  "score_link_confirmed": false,
+  "score_location_or_submission_id": ""
+}

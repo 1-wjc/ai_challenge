@@ -1,0 +1,16 @@
+{
+  "n": 500,
+  "correct_n": 417,
+  "accuracy": 0.834,
+  "parse_failure_rate": 0.0,
+  "fallback_usage_rate": 0.0,
+  "seconds": 287.7993164999989,
+  "seconds_per_sample": 0.5755986329999978,
+  "peak_allocated_gib": 7.6016011238098145,
+  "peak_reserved_gib": 11.333984375,
+  "checkpoint": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006\\TASK006-8f2c71505c11284c\\train_20260922_115654_f6f6586f\\adapter_epoch1",
+  "train_pixel_budget": 147456,
+  "inference_pixel_budget": 147456,
+  "warmup_samples": 1,
+  "timing": "validation loop only, excludes load/warmup"
+}

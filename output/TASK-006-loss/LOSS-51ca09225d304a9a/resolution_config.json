@@ -1,0 +1,18 @@
+{
+  "baseline_dir": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006\\TASK006-8f2c71505c11284c",
+  "resolutions": [
+    "full_text",
+    "answer_only"
+  ],
+  "inference_resolution": 672,
+  "session_tag": "loss_640_672_v1",
+  "baseline_worker_sha256": "e557570083036ab98f8f85fb11fa65291644524babc6a7b5ddd59ecac2d57836",
+  "baseline_config_sha256": "94d24507d52e39ddb4cabd5b8bafd52e95f81329c1fcdd14157f27f26803ba09",
+  "train_record_sha256": "4a0fef273644cccd59abd28a93a8cf81b2d82e716b8dc79998c9932f384b1a63",
+  "audit_record_sha256": "a007fa7d14f48de94a48d6046ad710efb22022ba00c863fdb861ac2d1a06bb01",
+  "worker_sha256": "132f2e4fad999e37d65455ffcfe5e5bb01c7201039f3245b5cada751e0e6af9d",
+  "environment_sha256": "dec85a7b62ea2491676bd429cf43daf8f329160a8d54fcc011d0903c29d5e5bb",
+  "code_version": "loss-640-672-v1",
+  "output_dir": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-loss\\LOSS-51ca09225d304a9a",
+  "retry_oom": false
+}

@@ -1,0 +1,11 @@
+{
+  "n": 500,
+  "seconds": 384.97793190000016,
+  "seconds_per_sample": 0.7699558638000004,
+  "peak_allocated_gib": 7.768429279327393,
+  "peak_reserved_gib": 7.9296875,
+  "parse_failure_rate": 0.0,
+  "max_input_tokens_observed": 774,
+  "accuracy": 0.94,
+  "strict_accuracy": 0.94
+}

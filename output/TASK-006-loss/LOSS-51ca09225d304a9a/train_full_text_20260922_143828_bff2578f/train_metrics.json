@@ -1,0 +1,8 @@
+{
+  "train_n": 1000,
+  "epochs": 1,
+  "updates": 250,
+  "seconds": 2532.541632700002,
+  "peak_allocated_gib": 9.904252529144287,
+  "peak_reserved_gib": 11.564453125
+}

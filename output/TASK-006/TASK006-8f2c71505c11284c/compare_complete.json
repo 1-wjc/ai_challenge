@@ -1,0 +1,25 @@
+{
+  "stage": "compare",
+  "directory": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006\\TASK006-8f2c71505c11284c\\compare_20260922_131611_e6d00bfd",
+  "result": {
+    "gain": 18,
+    "loss": 18,
+    "accuracy_delta": 0.0,
+    "n": 500,
+    "adoption": "pending; no automatic model selection",
+    "review_02": "pending",
+    "holdout_evaluated": false,
+    "test_evaluated": false
+  },
+  "artifacts": {
+    "changed_answers.csv": "82627bee289c0a0412ab4223d8175969d12ea0815aae26bdf4b27385bf1f6fd9",
+    "CHANGELOG.md": "6533304ef3fe70158db6d88b6b83b8780989968d4935aefd9ab89337087c9f7a",
+    "comparison.csv": "1c1beea03f40e8c8061c9634a78f28fa78952eb39e5bc7fb85a29738113f71bc",
+    "config.json": "94d24507d52e39ddb4cabd5b8bafd52e95f81329c1fcdd14157f27f26803ba09",
+    "error_review_template.csv": "1b3445e9103efc6951790c844a36f10b83d69dfce3aecb039a1f2b40a62edad0",
+    "paired_predictions.csv": "87b6dbb45a6d087286f74b072f10f98cc28a8729eb066f5fbb7d0017d530b7cf",
+    "PROJECT_STATUS_update.md": "e61545fc811267562f7e4b72d0bb53306e452c67fc13cd5a3267ffc9b062c438",
+    "summary.json": "75a8479df80b58eaef93a2b8ad68541052f95c4f53d73b79403e1466ab48f3ff",
+    "type_comparison.csv": "989d9de35ea260f57b5cb30656dc344918c147dcf6bc40f6cd9ad42ceb4ec3b2"
+  }
+}

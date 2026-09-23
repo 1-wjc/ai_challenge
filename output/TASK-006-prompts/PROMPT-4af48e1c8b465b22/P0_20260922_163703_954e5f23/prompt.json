@@ -1,0 +1,7 @@
+{
+  "name": "P0",
+  "title": "기존 baseline",
+  "instruction": "정답을 반드시 a, b, c, d 중 하나의 소문자 한 글자로만 출력하세요.",
+  "system": "You are a helpful visual question answering assistant. Answer using exactly one letter among a, b, c, or d. No explanation.",
+  "example_user_message": "2026년 8월 20일 강남고속버스터미널에서 08:00에 출발하는 버스의 목적지는 어디인가요?\n(a) 서산\n(b) 청주\n(c) 전주\n(d) 당진\n\n정답을 반드시 a, b, c, d 중 하나의 소문자 한 글자로만 출력하세요."
+}

@@ -1,0 +1,79 @@
+{
+  "checkpoint": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-loss\\LOSS-51ca09225d304a9a\\train_answer_only_20260922_152814_5e73bca1\\adapter_epoch1",
+  "valid_n": 500,
+  "data_manifest": {
+    "csv_sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+    "split_sha256": "c28b7ef0c5baf35689505b5bf4ad64168a754e118c0e4f59c0bf2b8d6884679d",
+    "image_audit_sha256": "da8872e005431a203fd94fb083e835962eb5a3ae6d924cfce160c1f709c58040",
+    "counts": {
+      "pool": 4214,
+      "holdout": 1000,
+      "train": 1000,
+      "valid": 500
+    },
+    "groups": 6704,
+    "near_candidate_pairs": 3,
+    "near_policy": "dHash candidate transitive grouping; human review pending; misses possible",
+    "question_type_policy": "regex heuristic only",
+    "review_02": "pending",
+    "dev_used": false,
+    "test_used": false,
+    "findings": 2
+  },
+  "config_sha256": "5d84c803160ca349776b3d80b2ad5f315a128dd6bfa1563fa414271d640d3af9",
+  "valid_ids_sha256": "e264d89429aa81f29bae3e314c88ea7a4b04e9673b8d25253a0acfc1f56e3e6c",
+  "model_stats": {
+    "chat_template.jinja": [
+      7756,
+      1789968403413105000
+    ],
+    "config.json": [
+      3126,
+      1789968403666634100
+    ],
+    "merges.txt": [
+      3353259,
+      1789968403982751300
+    ],
+    "model.safetensors-00001-of-00004.safetensors": [
+      5276436216,
+      1789968505161096200
+    ],
+    "model.safetensors-00002-of-00004.safetensors": [
+      5335161512,
+      1789968584824637400
+    ],
+    "model.safetensors-00003-of-00004.safetensors": [
+      5368717440,
+      1789968683284136500
+    ],
+    "model.safetensors-00004-of-00004.safetensors": [
+      3325995712,
+      1789968737481764300
+    ],
+    "model.safetensors.index.json": [
+      79657,
+      1789968737778578900
+    ],
+    "preprocessor_config.json": [
+      390,
+      1789968738046044000
+    ],
+    "tokenizer.json": [
+      12807982,
+      1789968740030576200
+    ],
+    "tokenizer_config.json": [
+      16710,
+      1789968740329992500
+    ],
+    "video_preprocessor_config.json": [
+      385,
+      1789968740597782200
+    ],
+    "vocab.json": [
+      6722759,
+      1789968740997931000
+    ]
+  }
+}

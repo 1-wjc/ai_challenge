@@ -1,0 +1,14 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "vram_gib": 15.92828369140625,
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.17.0",
+    "peft": "0.20.0",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "pandas": "3.0.5",
+    "pillow": "12.3.0"
+  }
+}

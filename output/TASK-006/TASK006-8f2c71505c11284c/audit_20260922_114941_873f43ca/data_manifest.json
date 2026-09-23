@@ -1,0 +1,19 @@
+{
+  "csv_sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+  "split_sha256": "c28b7ef0c5baf35689505b5bf4ad64168a754e118c0e4f59c0bf2b8d6884679d",
+  "image_audit_sha256": "da8872e005431a203fd94fb083e835962eb5a3ae6d924cfce160c1f709c58040",
+  "counts": {
+    "pool": 4214,
+    "holdout": 1000,
+    "train": 1000,
+    "valid": 500
+  },
+  "groups": 6704,
+  "near_candidate_pairs": 3,
+  "near_policy": "dHash candidate transitive grouping; human review pending; misses possible",
+  "question_type_policy": "regex heuristic only",
+  "review_02": "pending",
+  "dev_used": false,
+  "test_used": false,
+  "findings": 2
+}

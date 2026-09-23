@@ -1,0 +1,23 @@
+# TASK-006 전체 test 추론
+
+{
+  "n": 6714,
+  "parse_failure_n": 0,
+  "fallback_n": 0,
+  "id_order_matches_sample": true,
+  "checkpoint": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-local-alltrain\\FULLTRAIN-032822484ddec52e\\train_20260923_094943_eef39a\\adapter_epoch1",
+  "auto_submitted": false,
+  "review_02": "pending",
+  "test_accuracy": null,
+  "state": "file_checks_passed",
+  "sha256": "a3a51c0e74ff33b087e790d57ad7eb2a5e9cf14fc0475a12d8ffbf2ecb5244e3",
+  "path": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-local-alltrain\\FULLTRAIN-032822484ddec52e\\submission.csv",
+  "answer_counts": {
+    "a": 1704,
+    "d": 1704,
+    "c": 1658,
+    "b": 1648
+  }
+}
+
+제출 CSV 생성 및 파일 검사 완료. 독립 검토·실제 제출 미완료. 검증·holdout을 제외한 전체 학습 데이터로 새 학습. test 정답 미사용.

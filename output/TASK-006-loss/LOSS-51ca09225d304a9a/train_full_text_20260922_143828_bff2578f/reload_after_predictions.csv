@@ -1,0 +1,6 @@
+id,answer,raw_output,parse_failed,fallback_used,gold,correct,strict_correct,group_id,question_type,image_meta
+train_0017.jpg,d,d,False,False,d,True,True,g_train_0017.jpg,text_other,"{""original_size"": [1280, 720], ""grid_thw"": [[1, 30, 56]], ""processed_hw"": [[480, 896]], ""visual_tokens"": 420}"
+train_0034.jpg,a,a,False,False,a,True,True,g_train_0034.jpg,text_other,"{""original_size"": [960, 720], ""grid_thw"": [[1, 36, 48]], ""processed_hw"": [[576, 768]], ""visual_tokens"": 432}"
+train_0041.jpg,c,c,False,False,c,True,True,g_train_0041.jpg,position,"{""original_size"": [720, 960], ""grid_thw"": [[1, 48, 36]], ""processed_hw"": [[768, 576]], ""visual_tokens"": 432}"
+train_0065.jpg,b,b,False,False,b,True,True,g_train_0065.jpg,text_other,"{""original_size"": [720, 887], ""grid_thw"": [[1, 46, 36]], ""processed_hw"": [[736, 576]], ""visual_tokens"": 414}"
+train_0067.jpg,a,a,False,False,a,True,True,g_train_0067.jpg,text_other,"{""original_size"": [720, 960], ""grid_thw"": [[1, 48, 36]], ""processed_hw"": [[768, 576]], ""visual_tokens"": 432}"

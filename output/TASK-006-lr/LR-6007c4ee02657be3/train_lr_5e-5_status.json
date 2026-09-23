@@ -1,0 +1,41 @@
+{
+  "state": "completed",
+  "directory": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-lr\\LR-6007c4ee02657be3\\train_lr_5e-5_20260922_195544_73412474",
+  "checkpoint": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-lr\\LR-6007c4ee02657be3\\train_lr_5e-5_20260922_195544_73412474\\adapter_epoch1",
+  "training": {
+    "train_n": 1000,
+    "epochs": 1,
+    "updates": 250,
+    "seconds": 2727.4052515000003,
+    "peak_allocated_gib": 10.389219760894775,
+    "peak_reserved_gib": 11.578125
+  },
+  "artifacts": {
+    "environment.json": "db5794979e6d199d73c408fda22d4ea3c6d4c3282816cc808bfefe8fd87bfc7e",
+    "lora_parameters.json": "cb96538fcf320d463dc525b4b6dda3212e8eec30d73b8d1e00414d1f54fabb87",
+    "model_config.json": "f45c3a3a48e0656fd984953ff969922f4c0080f15ea15237cc812d0a7fa88deb",
+    "processor_settings.json": "68031073075af973e434d38862883251aaa42b44dfb26eba99c62fe1c26e7bcc",
+    "reload_after_metrics.json": "e3edd84b2aaf2f94139e92f946f2c535918298b9725a422ba8ab516b2110e24e",
+    "reload_after_predictions.csv": "0e7f1f3171c138a019d8e79638c21147c8c3203c300249fc01ffe095a5e6a0a6",
+    "reload_before_metrics.json": "375fbc1aa75532deadee40466fb9b5e67445cbe388ef9481c503b6b7b1e73add",
+    "reload_before_predictions.csv": "0e7f1f3171c138a019d8e79638c21147c8c3203c300249fc01ffe095a5e6a0a6",
+    "reload_check.json": "d2b598c5fc6216ef063eda077e5da1de811df81fe34ce0d71b12d11b8ff8caf1",
+    "supervised_tokens.csv": "1d47b3754f730da22576e2c1161b77f1c3bd3d0a204aa3893d1e5d1d813dc17d",
+    "training_config.json": "2eb71a6a83c20167e23ee8e7afc1b38e3f52c1a4f1458b52644e0e89ec349f40",
+    "train_log.csv": "8b6329c073db18c720e115d85371ad394f62c51f3fb395294af30a9786ce12c1",
+    "train_metrics.json": "774be16e723eb596b3dee7930c0b684c425ab0302016b3083c5b3bed1ca4621c",
+    "train_updates.jsonl": "1c330fa9859373c703ef11ea2973b6d716615b11e58cff1ad075cac8c7993e4d",
+    "adapter_epoch1\\adapter_config.json": "2162192814bf29c620e3a780d6ad1f784cd98d98e319e2522fc7fb7a265cc334",
+    "adapter_epoch1\\adapter_model.safetensors": "84317d56704063511a21f91109b492eb459bc3f6022351f7bd99385e5f16c372",
+    "adapter_epoch1\\chat_template.jinja": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e",
+    "adapter_epoch1\\processor_config.json": "ea0cbae04695716bc95ec1c8f2bd73560c32aa7b60323dc0ec7aa1bb9ead24f0",
+    "adapter_epoch1\\README.md": "788b4133ad4d2d27ccedaf124eda59d89afd1e2eff8a0c8fb2b637912c2c391b",
+    "adapter_epoch1\\tokenizer.json": "b6d27c11283798debbfbcb1bd3bbdbcebac6c9b20d0be0c5b79231c97de97501",
+    "adapter_epoch1\\tokenizer_config.json": "a0a7e58b7d879279122e917ff4d430b52a349201761fa9368a81ab5d1a597596",
+    "processor\\chat_template.jinja": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e",
+    "processor\\processor_config.json": "ea0cbae04695716bc95ec1c8f2bd73560c32aa7b60323dc0ec7aa1bb9ead24f0",
+    "processor\\tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "processor\\tokenizer_config.json": "a0a7e58b7d879279122e917ff4d430b52a349201761fa9368a81ab5d1a597596"
+  },
+  "reused_baseline": false
+}

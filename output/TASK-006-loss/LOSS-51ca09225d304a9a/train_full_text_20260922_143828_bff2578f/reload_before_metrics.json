@@ -1,0 +1,11 @@
+{
+  "n": 5,
+  "correct_n": 5,
+  "accuracy": 1.0,
+  "parse_failure_rate": 0.0,
+  "fallback_usage_rate": 0.0,
+  "seconds": 3.955056099999638,
+  "seconds_per_sample": 0.7910112199999275,
+  "peak_allocated_gib": 7.670956134796143,
+  "peak_reserved_gib": 11.271484375
+}

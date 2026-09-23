@@ -1,0 +1,8 @@
+{
+  "state": "trained_here",
+  "epochs": 1,
+  "updates": 45,
+  "seconds": 561.3570307,
+  "peak_allocated_gib": 9.955591678619385,
+  "peak_reserved_gib": 29.521484375
+}

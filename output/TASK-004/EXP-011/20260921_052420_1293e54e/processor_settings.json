@@ -1,0 +1,37 @@
+{
+  "kind": "qwen",
+  "image_policy": "Qwen 픽셀 예산 384², 종횡비 유지·processor 정렬",
+  "thinking": false,
+  "choice_ids": [
+    64,
+    65,
+    66,
+    67
+  ],
+  "image_processor": {
+    "size": {
+      "shortest_edge": 147456,
+      "longest_edge": 147456
+    },
+    "patch_size": 16,
+    "temporal_patch_size": 2,
+    "merge_size": 2,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "Qwen2VLImageProcessor",
+    "do_convert_rgb": true,
+    "do_resize": true,
+    "resample": 3,
+    "do_rescale": true,
+    "rescale_factor": 0.00392156862745098,
+    "do_normalize": true
+  }
+}

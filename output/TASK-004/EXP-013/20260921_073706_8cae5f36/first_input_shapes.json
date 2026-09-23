@@ -1,0 +1,56 @@
+{
+  "input_ids": {
+    "shape": [
+      1,
+      196
+    ],
+    "dtype": "torch.int64"
+  },
+  "attention_mask": {
+    "shape": [
+      1,
+      196
+    ],
+    "dtype": "torch.bool"
+  },
+  "pixel_values": [
+    [
+      {
+        "shape": [
+          3,
+          14,
+          14504
+        ],
+        "dtype": "torch.float32"
+      }
+    ]
+  ],
+  "image_bound": [
+    {
+      "shape": [
+        1,
+        2
+      ],
+      "dtype": "torch.int64"
+    }
+  ],
+  "tgt_sizes": [
+    {
+      "shape": [
+        1,
+        2
+      ],
+      "dtype": "torch.int64"
+    }
+  ],
+  "temporal_ids": [
+    [
+      [
+        {
+          "shape": [],
+          "dtype": "torch.int64"
+        }
+      ]
+    ]
+  ]
+}

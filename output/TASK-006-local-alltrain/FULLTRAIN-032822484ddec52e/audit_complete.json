@@ -1,0 +1,36 @@
+{
+  "directory": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-local-alltrain\\FULLTRAIN-032822484ddec52e\\audit_6727c2d4",
+  "artifacts": {
+    "answer_distribution.csv": "4bbcf950ef2bd50138fd77dea8cd526cc292d488ab80e7bcfb601633074236e4",
+    "data_findings.csv": "47f0ac630adef5a57d012904165643e1f8f7164def4620c41535156ff7acfd0f",
+    "data_manifest.json": "9e335a7872568a47495e2691feeb7662477a211fd730faa5c07c37ba58c921a9",
+    "holdout_ids.csv": "194ee417ed790416a491c02d7e3dd17682d1bffd08797a2e564edb33f2219554",
+    "image_audit.csv": "da8872e005431a203fd94fb083e835962eb5a3ae6d924cfce160c1f709c58040",
+    "image_errors.csv": "d50e0c496747743cf4bf8708297f3795232f174f1f940dbe08c5896e9239f860",
+    "near_duplicate_candidates.csv": "1c7a20933c8ca65d1abd5a8ba2d456178077617bab0a776d0b0cbeb1219ed37a",
+    "pool_ids.csv": "b001ace83774d13c71f5ed523ea4328bcb1469fac617cbcdf3c9f5cb67d3cdea",
+    "split_manifest.csv": "bb42f6be71b4a2eeda8fe0aa76a345b9c570bb7c5d3d12c6ecb73671ded9428b",
+    "train_ids.csv": "dc13f6d9749a2722bea712b5a99e20d43b79085fa162138443d4972ac3e8d9be",
+    "type_distribution.csv": "cda59c2c28f423e7c50d3bcb42e6728e62a345c489b25ff248602ff26af7de6b",
+    "valid_ids.csv": "ef54617426b466b9d1f0d135dca7684acbaa0a42f2e672be3f551564e77953d6"
+  },
+  "result": {
+    "csv_sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+    "split_sha256": "bb42f6be71b4a2eeda8fe0aa76a345b9c570bb7c5d3d12c6ecb73671ded9428b",
+    "image_audit_sha256": "da8872e005431a203fd94fb083e835962eb5a3ae6d924cfce160c1f709c58040",
+    "counts": {
+      "train": 5214,
+      "holdout": 1000,
+      "valid": 500
+    },
+    "groups": 6704,
+    "near_candidate_pairs": 3,
+    "near_policy": "dHash candidate transitive grouping; human review pending; misses possible",
+    "question_type_policy": "regex heuristic only",
+    "review_02": "pending",
+    "dev_used": false,
+    "test_used": false,
+    "findings": 2,
+    "split_source": "original fixed valid/holdout; original train+pool for training"
+  }
+}

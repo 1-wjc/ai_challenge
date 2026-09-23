@@ -1,0 +1,3 @@
+model,n,correct_n,accuracy,parse_failure_rate,fallback_usage_rate,seconds,seconds_per_sample,peak_allocated_gib,peak_reserved_gib
+base,500,417,0.834,0.0,0.0,293.2124574999998,0.5864249149999996,7.5474019050598145,11.27734375
+lora,500,417,0.834,0.0,0.0,299.2048768000004,0.5984097536000008,7.6016011238098145,11.333984375

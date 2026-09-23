@@ -1,0 +1,47 @@
+{
+  "auto_map": {
+    "AutoImageProcessor": "image_processing_minicpmv.MiniCPMVImageProcessor",
+    "AutoProcessor": "processing_minicpmv.MiniCPMVProcessor"
+  },
+  "im_end": "</image>",
+  "im_end_token": "</image>",
+  "im_id_end": "</image_id>",
+  "im_id_start": "<image_id>",
+  "im_start": "<image>",
+  "im_start_token": "<image>",
+  "image_feature_size": 64,
+  "image_processor_type": "MiniCPMVImageProcessor",
+  "max_slice_nums": 9,
+  "mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "norm_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "norm_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "patch_size": 14,
+  "processor_class": "MiniCPMVProcessor",
+  "scale_resolution": 448,
+  "slice_end": "</slice>",
+  "slice_end_token": "</slice>",
+  "slice_mode": true,
+  "slice_start": "<slice>",
+  "slice_start_token": "<slice>",
+  "std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "unk": "<unk>",
+  "unk_token": "<unk>",
+  "use_image_id": true,
+  "version": 2.6
+}

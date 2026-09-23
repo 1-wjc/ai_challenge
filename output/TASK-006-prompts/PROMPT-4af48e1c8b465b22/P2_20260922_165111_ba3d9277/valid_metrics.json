@@ -1,0 +1,17 @@
+{
+  "n": 500,
+  "correct_n": 470,
+  "accuracy": 0.94,
+  "parse_failure_rate": 0.0,
+  "fallback_usage_rate": 0.0,
+  "seconds": 406.72158240000135,
+  "seconds_per_sample": 0.8134431648000027,
+  "peak_allocated_gib": 7.657505035400391,
+  "peak_reserved_gib": 11.333984375,
+  "checkpoint": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-loss\\LOSS-51ca09225d304a9a\\train_answer_only_20260922_152814_5e73bca1\\adapter_epoch1",
+  "train_resolution": 640,
+  "inference_resolution": 672,
+  "loss_mode": "answer_only",
+  "warmup_samples": 1,
+  "first_input_tokens": 593
+}

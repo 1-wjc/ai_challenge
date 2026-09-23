@@ -1,0 +1,10 @@
+{
+  "gain": 18,
+  "loss": 18,
+  "accuracy_delta": 0.0,
+  "n": 500,
+  "adoption": "pending; no automatic model selection",
+  "review_02": "pending",
+  "holdout_evaluated": false,
+  "test_evaluated": false
+}

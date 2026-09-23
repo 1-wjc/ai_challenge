@@ -1,0 +1,59 @@
+{
+  "task_id": "TASK-004",
+  "experiment_id": "EXP-013",
+  "model": "openbmb/MiniCPM-V-4_5",
+  "revision": "daef484c35ec93210ec93c5e901f8f3e9b78ee34",
+  "split": {
+    "train_csv_sha256": "83b31c210e42f9c47aa992960dfb5e5519cc2fdea089c82158ed2d73b1fa985b",
+    "test_csv_sha256": "95063b713a853153d80d7c10df95a5be2bac93bb87cb6a7fe6172c479dc1bb97",
+    "sample_csv_sha256": "92567292544cba39e2ed81780ba7627758a518f7925fb237d350901a2d9cdace",
+    "split_sha256": "12a0551f8af9dc9ac77a01f1c1e878c420aacde5dd67524b87d3d5d8c44437dc",
+    "train_n": 180,
+    "valid_n": 20,
+    "test_n": 6714,
+    "near_duplicate_review": "not_performed",
+    "dev_used": false
+  },
+  "baseline": {
+    "n": 20,
+    "seconds": 7.675923399976455,
+    "seconds_per_sample": 0.3837961699988227,
+    "parse_failure_rate": 0.0,
+    "peak_allocated_gib": 7.986362934112549,
+    "peak_reserved_gib": 8.294921875,
+    "accuracy": 0.9,
+    "strict_accuracy": 0.9
+  },
+  "lora": {
+    "n": 20,
+    "seconds": 8.840145100024529,
+    "seconds_per_sample": 0.44200725500122645,
+    "parse_failure_rate": 0.0,
+    "peak_allocated_gib": 8.136263370513916,
+    "peak_reserved_gib": 8.548828125,
+    "accuracy": 0.8,
+    "strict_accuracy": 0.8
+  },
+  "training": {
+    "epochs": 1,
+    "updates": 45,
+    "seconds": 155.67445430002408,
+    "peak_allocated_gib": 8.876657962799072,
+    "peak_reserved_gib": 9.388671875
+  },
+  "test": {
+    "n": 6714,
+    "seconds": 3231.245819200005,
+    "seconds_per_sample": 0.48126985689603885,
+    "parse_failure_rate": 0.00014894250819183795,
+    "peak_allocated_gib": 8.165732383728027,
+    "peak_reserved_gib": 8.548828125
+  },
+  "submitted_checkpoint": "adapter_epoch1",
+  "submission_rows": 6714,
+  "submission_sha256": "43ec95ce376f8c70fc9525cf2016514721ec2403242fbb6f5d09b35e4ab18cb2",
+  "kaggle_uploaded": false,
+  "public_score": null,
+  "selection_note": "epoch-1 LoRA inference; model adoption awaits common-split review",
+  "base_outperformed_lora": true
+}

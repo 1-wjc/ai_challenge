@@ -1,0 +1,5 @@
+{
+  "loss": 0.0013020450714975595,
+  "finite_nonzero_gradients": true,
+  "optimizer_step": false
+}

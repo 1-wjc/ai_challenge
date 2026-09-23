@@ -1,0 +1,4 @@
+id_a,id_b,distance,policy
+train_1894.jpg,train_3481.jpg,0,same group conservatively; not human verified
+train_3103.jpg,train_3959.jpg,0,same group conservatively; not human verified
+train_2364.jpg,train_4087.jpg,4,same group conservatively; not human verified

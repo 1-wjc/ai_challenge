@@ -1,0 +1,17 @@
+{
+  "state": "completed",
+  "directory": "C:\\Users\\SSAFY\\Desktop\\AI2_Challenge\\output\\TASK-006-prompts\\PROMPT-4af48e1c8b465b22\\P3_20260922_165825_54e70617",
+  "artifacts": {
+    "environment.json": "db5794979e6d199d73c408fda22d4ea3c6d4c3282816cc808bfefe8fd87bfc7e",
+    "inference_config.json": "320ecad46f62e6f294840ef167a1b0db3e2b80dcc8a9ecc18aa3d2df288e730b",
+    "model_config.json": "f45c3a3a48e0656fd984953ff969922f4c0080f15ea15237cc812d0a7fa88deb",
+    "processor_settings.json": "24f1df0a13c227123cc683d98dfde6212ae231e4060729815186ebd3962eca6f",
+    "prompt.json": "51c2b578d672fe1012ff5f4b147b9d68002ddeee345ee5ff8115e9b1c6fd5e32",
+    "valid_metrics.json": "b2ea4f9036dade66de548ef5fb5c31b0bd082b4e05fdb8ca64b426774fa77cd3",
+    "valid_predictions.csv": "6ab438a74414ccd65c006cfccdcb53678c5bd673af4ccb4bb311e42887d74c2d",
+    "processor\\chat_template.jinja": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e",
+    "processor\\processor_config.json": "6b7d1322512ad4a0eddef839f19c2f92000e329cd494a374b09072b6c91c2d7a",
+    "processor\\tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "processor\\tokenizer_config.json": "a0a7e58b7d879279122e917ff4d430b52a349201761fa9368a81ab5d1a597596"
+  }
+}

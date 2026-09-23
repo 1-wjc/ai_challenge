@@ -1,0 +1,55 @@
+# Python 가상환경
+/baseline/
+/.venv/
+/venv/
+/env/
+
+# 다운로드한 모델·패키지와 원본 데이터
+/downloads/
+/data/
+
+# Python·Jupyter 캐시
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# 모델·체크포인트 가중치
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# 반복 저장된 대용량 tokenizer 자산
+/output/**/tokenizer.json
+/output/**/vocab.json
+/output/**/merges.txt
+
+# 실행 로그·임시 파일
+/output/**/*.log
+/output/**/gpu_experiment.lock
+/output/**/chunks/
+/output/**/progress.json
+*.tmp
+*.partial
+*.incomplete
+
+# 로컬 파일 목록
+/migration_inventory*.csv
+
+# 로컬 인증 정보
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+
+# OS 임시 파일
+.DS_Store
+Thumbs.db
+Desktop.ini

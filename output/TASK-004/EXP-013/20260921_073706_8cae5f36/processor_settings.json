@@ -1,0 +1,50 @@
+{
+  "kind": "minicpm",
+  "image_policy": "MiniCPM 공식 processor, max_slice_nums=1",
+  "thinking": false,
+  "choice_ids": [
+    64,
+    65,
+    66,
+    67
+  ],
+  "image_processor": {
+    "_processor_class": "MiniCPMVProcessor",
+    "image_processor_type": "MiniCPMVImageProcessor",
+    "auto_map": {
+      "AutoProcessor": "processing_minicpmv.MiniCPMVProcessor",
+      "AutoImageProcessor": "image_processing_minicpmv.MiniCPMVImageProcessor"
+    },
+    "use_image_id": true,
+    "image_feature_size": 64,
+    "im_start": "<image>",
+    "im_end": "</image>",
+    "slice_start": "<slice>",
+    "slice_end": "</slice>",
+    "unk": "<unk>",
+    "im_id_start": "<image_id>",
+    "im_id_end": "</image_id>",
+    "slice_mode": true,
+    "norm_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "norm_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "version": 2.6,
+    "max_slice_nums": 9,
+    "scale_resolution": 448,
+    "patch_size": 14,
+    "im_start_token": "<image>",
+    "im_end_token": "</image>",
+    "slice_start_token": "<slice>",
+    "slice_end_token": "</slice>",
+    "unk_token": "<unk>",
+    "mean": "[0.5 0.5 0.5]",
+    "std": "[0.5 0.5 0.5]"
+  }
+}

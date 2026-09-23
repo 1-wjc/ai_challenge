@@ -1,0 +1,6 @@
+{
+  "exact_cross_split_duplicates": [],
+  "near_duplicate_candidates": [],
+  "image_errors": [],
+  "near_duplicate_method": "64-bit dHash Hamming<=4; 후보 탐색이며 누수 확정/완전 탐지 아님"
+}
